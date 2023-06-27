@@ -8,7 +8,7 @@ function Navbar(){
    <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
      <div class="container-fluid">
        <a class="navbar-brand" href="#">
-         DBook Inc
+         Arita Sam
        </a>
        <button
          class="navbar-toggler"
@@ -31,12 +31,12 @@ function Navbar(){
            </li>
            <li class="nav-item">
              <a class="nav-link mx-2" href="#">
-               Products
+               Resume
              </a>
            </li>
            <li class="nav-item">
              <a class="nav-link mx-2" href="#">
-               Pricing
+               Projects
              </a>
            </li>
            <li class="nav-item dropdown">
@@ -48,7 +48,7 @@ function Navbar(){
                data-bs-toggle="dropdown"
                aria-expanded="false"
              >
-               Company
+               Links
              </a>
              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                <li>
@@ -56,14 +56,10 @@ function Navbar(){
                    Blog
                  </a>
                </li>
+               
                <li>
                  <a class="dropdown-item" href="#">
-                   About Us
-                 </a>
-               </li>
-               <li>
-                 <a class="dropdown-item" href="#">
-                   Contact us
+                   Contact Me
                  </a>
                </li>
              </ul>
