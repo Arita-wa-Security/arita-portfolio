@@ -1,85 +1,67 @@
 import React from "react"
 import {Navlink} from "react-router-dom"
 import "../Footer/Footer.css"
+// import { library, icon } from '@fortawesome/fontawesome-svg-core'
+// import { faCamera } from '@fortawesome/free-solid-svg-icons'
 
 function Footer(){
-
+  // library.add(faCamera)
     return (
-      <div>
-        <div class="container my-5">
+      
+      <>
+        {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
+        <div className="container my-5">
           <footer
-            class="text-center text-white"
-            
+            className="text-center text-lg-start"
+            id="start"
           >
-            <div class="container pt-4">
-              {/* <!-- Section: Social media --> */}
-              <section class="mb-4">
-                {/* <!-- Facebook --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-
-                {/* <!-- Twitter --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-twitter"></i>
-                </a>
-
-                {/* <!-- Google --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-google"></i>
-                </a>
-
-                {/* <!-- Instagram --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-instagram"></i>
-                </a>
-
-                {/* <!-- Linkedin --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                {/* <!-- Github --> */}
-                <a
-                  class="btn btn-link btn-floating btn-lg text-dark m-1"
-                  href="#!"
-                  role="button"
-                  data-mdb-ripple-color="dark"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-              </section>
-              {/* <!-- Section: Social media --> */}
+            <div className="container d-flex justify-content-center py-5">
+              <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                id="facebook"
+              >
+                <i className="fa fa-linkedin"></i>
+              </button>
+              {/* <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                id="youtube"
+                
+              >
+                <i className="fa fa-youtube"></i>
+              </button> */}
+              <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                id="instagram"
+                
+              >
+                <i className="fa fa-github"></i>
+              </button>
+              <button
+                type="button"
+                className="btn btn-primary btn-lg btn-floating mx-2"
+                id="twitter"
+                
+              >
+                <i className="fa fa-twitter"></i>
+              </button>
             </div>
-            {/* <!-- Grid container --> */}
+
+            {/* <!-- Copyright --> */}
+            <div
+              className="text-center text-white p-3"
+              // style="background-color: rgba(0, 0, 0, 0.2);"
+            >
+              © 2023 Copyright:Arita Sam
+              
+            </div>
+            {/* <!-- Copyright --> */}
           </footer>
         </div>
         {/* <!-- End of .container --> */}
-      </div>
+      </>
     );
 
 }
