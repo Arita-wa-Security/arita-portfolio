@@ -10,7 +10,7 @@ function Footer(){
       
       <>
         {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
-        <div className="container my-5">
+        <div className="container my-5" id="footer">
           <footer
             className="text-center text-lg-start"
             id="start"
