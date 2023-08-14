@@ -1,5 +1,5 @@
 import React from "react"
-import {Navlink} from "react-router-dom"
+// import {Navlink} from "react-router-dom"
 import "../Footer/Footer.css"
 // import { library, icon } from '@fortawesome/fontawesome-svg-core'
 // import { faCamera } from '@fortawesome/free-solid-svg-icons'

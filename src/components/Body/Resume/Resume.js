@@ -1,12 +1,9 @@
 import React from "react";
-import "../Body/body.css";
-import Resume from "./Resume/Resume"
-import Projects from "./Projects/Projects";
+import "../Resume/Resume.css";
 
-function Body(){
+function Resume(){
  return (
-  <>
-   <div class="d-flex justify-content-evenly" id="Body">
+   <div class="d-flex justify-content-evenly" id="resume">
      <div id="initial-content">
        <p>Hey there, I am</p>
        <h1>Arita Sam</h1>
@@ -19,14 +16,8 @@ function Body(){
          src="https://static.vecteezy.com/system/resources/thumbnails/002/883/755/small/shield-with-padlock-icon-in-personal-data-security-cyber-concept-photo.jpg"
        />
      </div>
-     
    </div>
-   <Resume />
-   <Projects />
-
-
-   </>
  );
 }
 
-export default Body
+export default Resume
