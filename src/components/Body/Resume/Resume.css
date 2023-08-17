@@ -4,3 +4,13 @@
     margin-top: 10px;
     position: relative;
 }
+
+#about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 70px;
+    
+}
+

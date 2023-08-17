@@ -1,5 +1,5 @@
 #Body{
-    background-color: maroon;
+    /* background-color: maroon; */
     margin-top: 20px;
     height: 500px;
 }
@@ -7,4 +7,9 @@
 #initial-content{
     display: block;
 
+}
+
+#work{
+    height: 100%;
+    /* position: relative; */
 }

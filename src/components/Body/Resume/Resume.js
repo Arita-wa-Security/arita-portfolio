@@ -1,20 +1,18 @@
 import React from "react";
 import "../Resume/Resume.css";
+import SamCV from "../assets/SamCV.pdf"
 
 function Resume(){
  return (
    <div class="d-flex justify-content-evenly" id="resume">
-     <div id="initial-content">
-       <p>Hey there, I am</p>
-       <h1>Arita Sam</h1>
-       <h5>Software Developer</h5>
-     </div>
-
-     <div id="image">
-       <img
-         alt="cyber-security"
-         src="https://static.vecteezy.com/system/resources/thumbnails/002/883/755/small/shield-with-padlock-icon-in-personal-data-security-cyber-concept-photo.jpg"
-       />
+     <div id="about">
+      <p>Who is Arita??</p>
+       <p>I'm fueled by curisioty and a thirst for growth.
+        Always seeking new challenges to grow. With each step forward
+        , I'm not only enhancing my technical skills but also cultivating the mindset of 
+        a lifelong learner.
+        Click <a href={SamCV} onClick={()=>window.open(SamCV)}>here</a> to get a copy of my resume...
+       </p>
      </div>
    </div>
  );

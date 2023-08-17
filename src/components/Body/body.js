@@ -2,6 +2,7 @@ import React from "react";
 import "../Body/body.css";
 import Resume from "./Resume/Resume"
 import Projects from "./Projects/Projects";
+import Work from "../Body/assets/Work.jpg"
 
 function Body(){
  return (
@@ -13,10 +14,11 @@ function Body(){
        <h5>Software Developer</h5>
      </div>
 
-     <div id="image">
+     <div id="work">
        <img
          alt="cyber-security"
-         src="https://static.vecteezy.com/system/resources/thumbnails/002/883/755/small/shield-with-padlock-icon-in-personal-data-security-cyber-concept-photo.jpg"
+         src={Work}
+         id="work"
        />
      </div>
      
