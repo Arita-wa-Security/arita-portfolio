@@ -3,6 +3,7 @@ import "../Body/body.css";
 import Resume from "./Resume/Resume"
 import Projects from "./Projects/Projects";
 import Work from "../Body/assets/Work.jpg"
+import Stack from "./Stack/Stack";
 
 function Body(){
  return (
@@ -25,6 +26,7 @@ function Body(){
    </div>
    <Resume />
    <Projects />
+   <Stack />
 
 
    </>
