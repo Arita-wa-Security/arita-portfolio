@@ -10,9 +10,14 @@ function Body(){
   <>
    <div class="d-flex justify-content-evenly" id="Body">
      <div id="initial-content">
-       <p>Hey there, I am</p>
-       <h1>Arita Sam</h1>
-       <h5>Software Developer</h5>
+       
+       <h5>“I learned that courage was not the absence of fear, 
+        <br></br>but the triumph over it. 
+        <br></br>The brave man is not he who does not feel afraid,
+        <br></br>but he who conquers that fear.” 
+        <br></br>
+        <br></br>Nelson Mandela
+        </h5>
      </div>
 
      <div id="work">
