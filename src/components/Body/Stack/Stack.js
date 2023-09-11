@@ -10,6 +10,7 @@ import "../Stack/Stack.css"
 function Stack(){
 return(
     <div className="container text-center">
+        <h1>Stacks</h1>
         <div className="row row-cols-4">
             <div className="col">
                 <div className="icon">
