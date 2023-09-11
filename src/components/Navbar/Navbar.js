@@ -25,7 +25,7 @@ function Navbar(){
        <div className=" collapse navbar-collapse" id="navbarNavDropdown">
          <ul className="navbar-nav ms-auto ">
            <li className="nav-item">
-             <a className="nav-link mx-2 active" aria-current="page" href="#">
+             <a className="nav-link mx-2 active" aria-current="page" href="#about">
                Home
              </a>
            </li>
