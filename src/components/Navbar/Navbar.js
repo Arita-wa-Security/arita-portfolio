@@ -30,19 +30,19 @@ function Navbar(){
              </a>
            </li>
            <li className="nav-item">
-             <a className="nav-link mx-2" href="#">
+             <a className="nav-link mx-2" href="#about">
                Resume
              </a>
            </li>
            <li className="nav-item">
-             <a className="nav-link mx-2" href="#">
+             <a className="nav-link mx-2" href="#project">
                Projects
              </a>
            </li>
            <li className="nav-item dropdown">
              <a
                className="nav-link mx-2 dropdown-toggle"
-               href="#"
+               href="#contact"
                id="navbarDropdownMenuLink"
                role="button"
                data-bs-toggle="dropdown"
@@ -50,7 +50,7 @@ function Navbar(){
              >
                Links
              </a>
-             <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+             {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                <li>
                  <a className="dropdown-item" href="#">
                    Blog
@@ -62,26 +62,10 @@ function Navbar(){
                    Contact Me
                  </a>
                </li>
-             </ul>
+             </ul> */}
            </li>
          </ul>
-         {/* <ul className="navbar-nav ms-auto d-none d-lg-inline-flex">
-           <li className="nav-item mx-2">
-             <a className="nav-link text-dark h5" href="" target="blank">
-               <i className="fa fa-google-plus-square"></i>
-             </a>
-           </li>
-           <li className="nav-item mx-2">
-             <a className="nav-link text-dark h5" href="" target="blank">
-               <i className="fa fa-twitter"></i>
-             </a>
-           </li>
-           <li className="nav-item mx-2">
-             <a className="nav-link text-dark h5" href="" target="blank">
-               <i className="fa fa-facebook-square"></i>
-             </a>
-           </li>
-         </ul> */}
+         
        </div>
      </div>
    </nav>

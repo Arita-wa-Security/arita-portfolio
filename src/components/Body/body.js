@@ -2,7 +2,7 @@ import React from "react";
 import "../Body/body.css";
 import Resume from "./Resume/Resume"
 import Projects from "./Projects/Projects";
-import Work from "../Body/assets/Work.jpg"
+// import Work from "../Body/assets/code.jpg"
 import Stack from "./Stack/Stack";
 
 function Body(){
@@ -20,13 +20,13 @@ function Body(){
         </h5>
      </div>
 
-     <div id="work">
+     {/* <div id="work">
        <img
          alt="cyber-security"
          src={Work}
          id="work"
        />
-     </div>
+     </div> */}
      
    </div>
    <Resume />
