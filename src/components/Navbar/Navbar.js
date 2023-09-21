@@ -5,7 +5,7 @@ import "../Navbar/Navbar.css"
 function Navbar(){
  return (
    //
-   <nav className="navbar navbar-expand-lg navbar-light bg-info p-3">
+   <nav className="navbar navbar-expand-lg navbar-light ">
      <div className="container-fluid">
        <a className="navbar-brand" href="#">
          Arita Sam
@@ -25,13 +25,17 @@ function Navbar(){
        <div className=" collapse navbar-collapse" id="navbarNavDropdown">
          <ul className="navbar-nav ms-auto ">
            <li className="nav-item">
-             <a className="nav-link mx-2 active" aria-current="page" href="#about">
+             <a
+               className="nav-link mx-2 active"
+               aria-current="page"
+               href="#about"
+             >
                Home
              </a>
            </li>
            <li className="nav-item">
              <a className="nav-link mx-2" href="#about">
-               Resume
+               About
              </a>
            </li>
            <li className="nav-item">
@@ -39,33 +43,12 @@ function Navbar(){
                Projects
              </a>
            </li>
-           <li className="nav-item dropdown">
-             <a
-               className="nav-link mx-2 dropdown-toggle"
-               href="#contact"
-               id="navbarDropdownMenuLink"
-               role="button"
-               data-bs-toggle="dropdown"
-               aria-expanded="false"
-             >
-               Links
+           <li className="nav-item">
+             <a className="nav-link mx-2" href="#footer">
+               Contacts
              </a>
-             {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-               <li>
-                 <a className="dropdown-item" href="#">
-                   Blog
-                 </a>
-               </li>
-               
-               <li>
-                 <a className="dropdown-item" href="#">
-                   Contact Me
-                 </a>
-               </li>
-             </ul> */}
            </li>
          </ul>
-         
        </div>
      </div>
    </nav>

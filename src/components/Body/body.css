@@ -1,20 +1,25 @@
 #Body {
-  height: 30%;
+  height: 400px;
   position: relative;
-}
-
-#initial-content {
   background-image:url(./assets/code.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 100%;
+  padding: 3%;
+}
+
+#initial-content {
+  background-color: white;
+  opacity: .8;
+  border-radius: 95px;
+  /* height: 200px; */
+  width: 40%;
   position: relative;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 3%;
+  padding: 3.5%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #work {
