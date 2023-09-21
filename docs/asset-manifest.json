@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/arita-portfolio/static/css/main.37b79af3.css",
+    "main.js": "/arita-portfolio/static/js/main.08c92bda.js",
+    "static/js/787.fbeb9136.chunk.js": "/arita-portfolio/static/js/787.fbeb9136.chunk.js",
+    "static/media/SamCV.pdf": "/arita-portfolio/static/media/SamCV.7b2f267a7188a8c7ba7a.pdf",
+    "static/media/Ruby.png": "/arita-portfolio/static/media/Ruby.881adacec5961a34b0cc.png",
+    "static/media/Rails.jpg": "/arita-portfolio/static/media/Rails.9ffd4daffaea615f44c4.jpg",
+    "static/media/code.jpg": "/arita-portfolio/static/media/code.f26c1cd409e6f4c6befc.jpg",
+    "static/media/Physics.png": "/arita-portfolio/static/media/Physics.86c8d9eba03e29814d2a.png",
+    "static/media/Css.png": "/arita-portfolio/static/media/Css.463e319bad8e0edf1ef7.png",
+    "index.html": "/arita-portfolio/index.html",
+    "main.37b79af3.css.map": "/arita-portfolio/static/css/main.37b79af3.css.map",
+    "main.08c92bda.js.map": "/arita-portfolio/static/js/main.08c92bda.js.map",
+    "787.fbeb9136.chunk.js.map": "/arita-portfolio/static/js/787.fbeb9136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b79af3.css",
+    "static/js/main.08c92bda.js"
+  ]
+}
